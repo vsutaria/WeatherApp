@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.DetailFragment"
+        android:layout_margin="20dp"
+
+        >
+        <TextView
+            android:id="@+id/tv_temp_huge"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:textSize="50sp"
+            android:textAlignment="center"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_feels_like"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_temp_huge"
+            android:textSize="20sp"
+
+            />
+
+        <TextView
+            android:id="@+id/tv_weather_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tv_feels_like"
+            android:textSize="50sp"
+
+            />
+        <TextView
+            android:id="@+id/tv_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@+id/tv_weather_name"
+            app:layout_constraintStart_toStartOf="parent"
+            android:textSize="30sp"
+
+
+            />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
