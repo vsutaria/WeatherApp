@@ -20,6 +20,8 @@ import com.example.weatherapp.model.WeatherForcast
 import com.example.weatherapp.viewModel.ViewModel
 
 //hellloadgvsdg
+
+/////wgaiwugrhaiulrguerug
 class ListFragment : Fragment() {
 
 
